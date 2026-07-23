@@ -14,13 +14,12 @@ const AppWrapper=()=>{
     </Context.Provider>
   )
 }
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
   <Router>
     <AppWrapper />
-    </Router>
+  </Router>
   </React.StrictMode>
 );
 

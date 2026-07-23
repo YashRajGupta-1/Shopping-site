@@ -88,6 +88,7 @@ const makePayment = async () => {
    console.log(storedCart);
     if(storedCart.length===0){
         toast.error("Cart is empty");
+        setCheckout(false);
         return;
     }
     const stripe = await loadStripe(Publishable_Key);
