@@ -13,7 +13,7 @@ function Cart() {
         if (storedCart) {
             setwishlist(JSON.parse(storedCart));
         }
-    },[wishlist]);
+    },[]);
 
 
     /* -----------------REMOVING PRODUCT FROM WISHLIST --------------------*/
@@ -27,6 +27,7 @@ function Cart() {
                 const currentArray = JSON.parse(currentValue);
                 const updatedArray = currentArray.filter(item => item.title !== valueToRemove);
                 localStorage.setItem(key, JSON.stringify(updatedArray));
+                setwishlist(updatedArray);
                 toast.error('Removed from wishlist');
             } catch (error) {
                 console.error('Error parsing or updating localStorage:', error);
