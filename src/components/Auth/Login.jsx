@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react';
 import './style.css'; 
-import { useNavigate } from 'react-router-dom';
+import { useNavigate,Link } from 'react-router-dom';
 import toast from 'react-hot-toast';
 import axios from 'axios';
 import { Context } from '../..';
@@ -94,7 +94,7 @@ const navigateTo = useNavigate();
             <span>or use your email password</span>
             <input type="email" placeholder="Email" required name="email" onChange={handleChange2} />
             <input type="password" placeholder="Password" required name="password" onChange={handleChange2} />
-            {/* <Link to={'/forgotPassword'}>Forget Your Password?</Link> */}
+            <Link to={'/forgotPassword'}>Forget Your Password?</Link>
             <button type='submit'>Sign In</button>
           </form>
         </div>
