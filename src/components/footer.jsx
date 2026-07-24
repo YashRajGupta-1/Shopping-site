@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
    { path==='/login'?<></>:<footer className='footer'>
-      <p>&copy; 2024 Product Catalog</p>
+      <p>© 2026 Product Catalog. All Rights Reserved.</p>
     </footer>}
     </>
   );
