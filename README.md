@@ -187,6 +187,6 @@ node app.js
 ## 👤 Author
 
 **Yash Raj Gupta**
-B.Tech Mechanical Engineering (2024–2028), IIT (BHU) Varanasi
+B.Tech, IIT (BHU) Varanasi
 
 - GitHub: [@YashRajGupta-1](https://github.com/YashRajGupta-1)
