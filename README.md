@@ -109,7 +109,7 @@ Authenticated users have a profile with a photo upload, and can submit feedback.
 
 ## 🧠 Architecture
 
-![Architecture](assets/architecture.jpeg)
+![Architecture](public/architecture.jpeg)
 
 ```text
                  ┌──────────────────┐
