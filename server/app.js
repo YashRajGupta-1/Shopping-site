@@ -3,7 +3,7 @@ import bodyParser from "body-parser";
 import mongoose from "mongoose";
 import cookieParser from "cookie-parser";
 import { config } from "dotenv";
-import dns from "dns";
+import dns from 'node:dns';
 config();
 
 import cors from "cors";
