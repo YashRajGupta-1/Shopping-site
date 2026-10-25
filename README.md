@@ -33,8 +33,6 @@ Also used: body-parser, cookie-parser, cors, dotenv, randomstring, mongoose-uniq
 
 ## Overview
 
-![Shopping-site overview](assets/overview.png)
-
 A React single-page app on a Node/Express API with MongoDB Atlas. The frontend talks to the API over REST routes. Authentication uses JWT sessions stored in httpOnly cookies, passwords are bcrypt-hashed, password reset works through an OTP sent by email, and profile photos are uploaded via multer to Cloudinary.
 
 ```text
@@ -111,7 +109,7 @@ Authenticated users have a profile with a photo upload, and can submit feedback.
 
 ## 🧠 Architecture
 
-![Architecture](assets/architecture.png)
+![Architecture](assets/architecture.jpeg)
 
 ```text
                  ┌──────────────────┐
